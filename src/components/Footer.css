@@ -1,31 +1,23 @@
 .footer{
 
-    margin-top:35px;
-    
-    background:#3f678e;
-    
-    border-top:3px solid #1d5fa8;
-    
+    width:100%;
+
+    background:#3c88d3;
+
+    border-top:3px solid #1e65b0;
+
     padding:18px;
-    
-    }
-    
-    .footer-content{
-    
-    text-align:center;
-    
+
+}
+
+.footer-content{
+
     color:white;
-    
-    font-family:Arial, Helvetica, sans-serif;
-    
-    font-size:14px;
-    
+
+    text-align:center;
+
     line-height:28px;
-    
-    }
-    
-    .footer-content p{
-    
-    margin:4px 0;
-    
-    }
+
+    font-size:14px;
+
+}

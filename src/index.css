@@ -5,23 +5,73 @@
 }
 
 body{
-
+  background:#d9dde5;
   font-family:Arial, Helvetica, sans-serif;
+}
 
-  background:#efefef;
+#root{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+.main-page{
+
+  width:100%;
+  max-width:950px;
+
+  background:#fff;
+
+  border:1px solid #bcbcbc;
+
+  box-shadow:0 0 10px rgba(0,0,0,.18);
+
+  margin:10px auto;
+
+  overflow:hidden;
+
+  min-height:100vh;
+
+}
+
+/* Laptop */
+
+@media screen and (min-width:769px){
+
+.main-page{
+
+  transform:none;
+
+}
+
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+
+body{
+
+  overflow-x:auto;
+
+}
+
+#root{
+
+  justify-content:flex-start;
 
 }
 
 .main-page{
 
-  width:98%;
+  width:950px;
 
-  margin:10px auto;
+  margin:0;
 
-  background:white;
+  transform:scale(.43);
 
-  border:1px solid #bdbdbd;
+  transform-origin:top left;
 
-  min-height:100vh;
+}
 
 }
