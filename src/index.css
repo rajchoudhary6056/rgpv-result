@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+
+  font-family:Arial, Helvetica, sans-serif;
+
+  background:#efefef;
+
+}
+
+.main-page{
+
+  width:98%;
+
+  margin:10px auto;
+
+  background:white;
+
+  border:1px solid #bdbdbd;
+
+  min-height:100vh;
+
+}

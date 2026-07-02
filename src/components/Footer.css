@@ -1,0 +1,31 @@
+.footer{
+
+    margin-top:35px;
+    
+    background:#3c88d3;
+    
+    border-top:3px solid #1d5fa8;
+    
+    padding:18px;
+    
+    }
+    
+    .footer-content{
+    
+    text-align:center;
+    
+    color:white;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-size:14px;
+    
+    line-height:28px;
+    
+    }
+    
+    .footer-content p{
+    
+    margin:4px 0;
+    
+    }
