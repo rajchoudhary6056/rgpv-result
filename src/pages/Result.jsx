@@ -12,7 +12,7 @@ export default function Result() {
             width: "100%",
             maxWidth: "1000px",
             border: "1px solid #ccc",
-            height:"800px"
+            height:"100%"
           }}
         />
 
