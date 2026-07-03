@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#d9dde5;
+}
+
+/* Full Page */
+
+.result-page{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:20px;
+
+}
+
+/* White Paper */
+
+.paper{
+
+    width:700px;
+
+    background:white;
+
+    border:1px solid #c4c4c4;
+
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+
+    padding:10px;
+
+}
+
+/* Image */
+
+.paper img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.paper{
+
+    width:95%;
+
+}
+
+}
