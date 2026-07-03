@@ -12,19 +12,22 @@ export default function Header() {
 
         <div className="title-section">
 
-          <h1>
+          
             Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal
-          </h1>
-
-          <h2>Results</h2>
+          
+          
+            <div className="result">Results</div>
 
         </div>
 
         <div className="portal-text">
           RGPV Portal
-        </div>
+        </div> 
+        
 
       </header>
+      <div className="red-line"></div>
+      
 
       <div className="header-bottom"></div>
 

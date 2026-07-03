@@ -6,11 +6,11 @@
 
 .header{
 
-    width:100%;
+    width:99%;
 
     min-height:130px;
 
-    background:linear-gradient(#79b8e7,#b5daf3);
+    background:#97D4FC;
 
     border-top:5px solid #2f8fd8;
 
@@ -21,6 +21,8 @@
     padding:15px 25px;
 
     position:relative;
+    top: 1%;
+    left: 0.5%;
 
 }
 
@@ -47,6 +49,14 @@
     flex:1;
 
     text-align:center;
+    font-size: 24px;
+    color: #114C88;
+    font-weight: bold;
+}
+.result{
+    color: red;
+    position: relative;
+    top: 10px;
 
 }
 
@@ -81,12 +91,26 @@
     font-weight:bold;
 
 }
+.portal-text{
+    color: #0373BD;
+    position: relative;
+    top: 48px;
+    font-size: 13px;
+    font-weight: bold;
+    right: -15px;
+
+}
 
 .red-line{
+    
+   
 
-    width:100%;
+    width:99%;
+    position: relative;
+    left: 0.5%;
 
-    height:3px;
+    height:4px;
+    top: 1px;
 
     background:#c70000;
 
@@ -99,5 +123,7 @@
     padding:1px 20px;
 
     text-align:right;
+    position: relative;
+    top: 10px;
 
 }
