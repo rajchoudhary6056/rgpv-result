@@ -20,7 +20,7 @@ body{
 
     justify-content:center;
 
-    padding:20px;
+    /* padding:20px; */
 
 }
 
@@ -28,15 +28,17 @@ body{
 
 .paper{
 
-    width:700px;
+    width:500px;
+    height: 00px;
 
-    background:white;
+    background:black;
 
     border:1px solid #c4c4c4;
 
     box-shadow:0 0 8px rgba(0,0,0,.15);
 
-    padding:10px;
+    /* padding-bottom: 0px; */
+    /* height: 800px; */
 
 }
 
@@ -45,8 +47,9 @@ body{
 .paper img{
 
     width:100%;
-
     display:block;
+   
+    
 
 }
 
