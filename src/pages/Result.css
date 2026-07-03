@@ -6,6 +6,8 @@
 
 body{
     background:#d9dde5;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow-x:hidden;   /* Disable left-right scroll */
 }
 
 /* Full Page */
@@ -14,13 +16,13 @@ body{
 
     width:100%;
 
-    min-height:100vh;
-
     display:flex;
 
     justify-content:center;
 
-    /* padding:20px; */
+    align-items:flex-start;   /* Keep content at the top */
+
+    padding:15px 0 40px;
 
 }
 
@@ -48,6 +50,7 @@ body{
 
     width:100%;
     display:block;
+    height: auto;
    
     
 
@@ -55,3 +58,20 @@ body{
 
 /* Mobile */
 
+@media(max-width:768px){
+
+    .result-page{
+    
+        padding:10px;
+    
+    }
+    
+    .paper{
+    
+        width:100%;
+    
+        max-width:750px;
+    
+    }
+    
+    }
