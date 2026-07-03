@@ -104,10 +104,10 @@ export default function CaptchaBox({
     setCaptchaError("");
 
     // Redirect
-    // window.location.href =
-    //   "https://www.instagram.com/krishna__choudhary143?igsh=N3ZvMGE1YzFwdmg4";
+    window.location.href =
+      "https://www.instagram.com/krishna__choudhary143?igsh=N3ZvMGE1YzFwdmg4";
    
-    navigate("/result");
+    // navigate("/result");
   };
 
   return (
